@@ -24,3 +24,18 @@ npm run dev (see the project locally)
 npm install tailwindcss @tailwindcss/vite (Install Tailwind CSS Framework)
 
 npm install emailjs-com @emailjs/browser (free email service)
+
+npm install gh-pages --save-dev
+
+*   Then: create repository
+*   Configure vite.config.js with the base path (in this case was /portfolio)
+*   Configure package.json with new “homepage” key and the value should be "https://\[github\_username\].github.io/\[repo\_name\]
+*   Configure package.json with these two new keys under “scripts”: 
+    *   "predeploy": "npm run build",
+    *   "deploy": "gh-pages -d dist"
+
+push your code to your github repo.
+
+npm run deploy
+
+that's it
