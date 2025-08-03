@@ -11,7 +11,7 @@ export const Navbar =  ({ menuOpen, setMenuOpen }) => {
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-white">
-                    <img src="/logo-benjamin-flores.png" alt="logo" className="w-10 h-10" />
+                    <img src="/portfolio/logo-benjamin-flores.png" alt="logo" className="w-10 h-10" />
                 </a>
 
                 {/* Mobile Menu */}
